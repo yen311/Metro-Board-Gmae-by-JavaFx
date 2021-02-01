@@ -1,0 +1,49 @@
+.root{
+    -fx-font-size: 12 pt;
+    -fx-background-color: papayawhip;
+}
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+
+    -fx-border-color: black;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+.choice-box {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-mark-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 8px;
+    -fx-border-color: black;
+    -fx-pref-width: 20;
+    -fx-pref-height: 10;
+}
+
+.choice-box .label {
+    -fx-font-size: 12 pt;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-text-fill: black;
+}
+
+.label{
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-shape: inherit;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+
+}
+.grid {
+    -fx-background-color: cell-border-color, cell-color ;
+    -fx-background-insets: 0, 1 1 0 0 ;
+    -fx-padding: 1 ;
+}
+
